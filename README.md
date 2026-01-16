@@ -11,3 +11,19 @@ Datasets:
 ---
 
 ## 📂 Repository Structure
+
+
+
+## ☁️ Development Environment
+All scripts for extracting and preprocessing the EEG motor imagery datasets were written and tested in **Google Colab**.  
+This setup provides:
+- Easy access to GPU acceleration for deep learning experiments.
+- A reproducible environment with pre-installed scientific Python libraries.
+- Seamless integration with Google Drive for storing raw data and processed trials.
+
+To run the notebooks:
+1. Open the `.ipynb` files in the `notebooks/` directory using Google Colab.
+2. Mount your Google Drive to access the `data/` folder:
+   ```python
+   from google.colab import drive
+   drive.mount('/content/drive')
